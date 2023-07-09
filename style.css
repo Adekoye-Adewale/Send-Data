@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 10%;
+    font-size: 18px;
+    font-family: "Helvetica Dispaly Now" ,Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0%;
+}
+
+p {
+    color: #000000cc;
+}
+
+form > div {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0px;
+}
+
+label {
+    display: flex;
+    min-width: 100px;
+}
+
+input {
+    width: 30vw;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    border: solid #000000 1px;
+    border-radius: 6px;
+    outline: none;
+    transition: all 250ms ease-in-out 10ms;
+}
+
+input::placeholder, input {
+    font-size: 0.8rem;
+    font-family: "Helvetica Dispaly Now" ,Arial, Helvetica, sans-serif;
+    letter-spacing: .1rem;
+    word-spacing: 0.5rem;
+}
+
+input:focus {
+    border: solid #09a846 2px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    min-height: 40px;
+    background-color: #09a846;
+    border: solid #09a846 0px;
+    padding: 10px 25px;
+    transition: all 250ms ease-in-out 10ms;
+}
+
+input[type=submit]:hover {
+    color: #09a846;
+    background-color: #ffffff;
+    border: solid #09a846 1px;
+}

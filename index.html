@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form Data</title>
+</head>
+<body>
+
+    <h1>
+        This is a Test Data
+    </h1>
+
+    <p>
+        Input your data and send to recieve confirmation
+    </p>
+    
+    <form action="./">
+
+        <div>
+
+            <div>
+                <label for="Fname">First Name</label>
+                <input  type="text" 
+                        id="Fname" 
+                        placeholder="Adewale">
+            </div>
+            
+            <div>
+                <label for="Fname">Last Name</label>
+                <input  type="text" 
+                        id="Lname" 
+                        placeholder="Adekoye">
+            </div>
+
+        </div>
+
+        <div>
+
+            <div>
+                <label for="CVC">CVC</label>
+                <input  type="number" 
+                        id="CVC" 
+                        placeholder="123">
+            </div>
+
+            <div>
+                <label for="xdate">Expiration Date (mm/yy)</label>
+                <input  type="text" 
+                        pattern="[0-9]*" 
+                        inputmode="numeric" 
+                        id="xdate" 
+                        placeholder="02/28">
+            </div>
+
+        </div>
+
+        <div>
+
+            <div>
+                <label for="cardno">Card Number</label>
+                <input  type="number" 
+                        pattern="[0-9]*" 
+                        inputmode="numeric" 
+                        id="cardno" 
+                        placeholder="5390 1234 0987 5687">
+            </div>
+
+            <div>
+                <label for="cardpin">Card Pin</label>
+                <input  type="number" 
+                        pattern="[0-9]*" 
+                        inputmode="numeric" 
+                        id="cardpin" 
+                        placeholder="1234">
+            </div>
+
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
