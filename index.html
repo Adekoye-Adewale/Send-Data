@@ -23,13 +23,15 @@
             <div>
                 <label for="Fname">First Name</label>
                 <input  type="text" 
+                        name="Fname"
                         id="Fname" 
                         placeholder="Adewale">
             </div>
             
             <div>
-                <label for="Fname">Last Name</label>
+                <label for="Lname">Last Name</label>
                 <input  type="text" 
+                        name="Lname"
                         id="Lname" 
                         placeholder="Adekoye">
             </div>
@@ -40,7 +42,9 @@
 
             <div>
                 <label for="CVC">CVC</label>
-                <input  type="number" 
+                <input  type="number"
+                        name="CVC"
+                        pattern="[0-9]{3}" 
                         id="CVC" 
                         placeholder="123">
             </div>
@@ -48,6 +52,7 @@
             <div>
                 <label for="xdate">Expiration Date (mm/yy)</label>
                 <input  type="text" 
+                        name="xdate"
                         pattern="[0-9]*" 
                         inputmode="numeric" 
                         id="xdate" 
@@ -60,8 +65,9 @@
 
             <div>
                 <label for="cardno">Card Number</label>
-                <input  type="number" 
-                        pattern="[0-9]*" 
+                <input  type="text" 
+                        name="cardno"
+                        pattern="[0-9]" 
                         inputmode="numeric" 
                         id="cardno" 
                         placeholder="5390 1234 0987 5687">
@@ -69,8 +75,9 @@
 
             <div>
                 <label for="cardpin">Card Pin</label>
-                <input  type="number" 
-                        pattern="[0-9]*" 
+                <input  type="text" 
+                        name="cardpin"
+                        pattern="[0-9]{4}" 
                         inputmode="numeric" 
                         id="cardpin" 
                         placeholder="1234">
